@@ -1,0 +1,5 @@
+Dataset,Role,Organism,Data Type,Genes Tested,Significant / Ranked,Cited Genes,DE Precision,DE Recall (vs Top-25),DE F1,Statistical Accuracy,Direction Errors,Evidence Support Rate,Hallucination Rate,Critic Verdict,Iterations,Latency (s),Tokens,Provenance,Trace File
+GSE202768,Development,Homo sapiens,Raw Counts (pydeseq2),14009,3946,11,1.0,0.44,0.6111,0.7857,3,0.5789,0.0,PASS,1,25.46,2756,measured_llm,eval_GSE202768_20260907T061142Z.json
+GSE113650,External Validation,Homo sapiens,CuffDiff (q-values),14817,990,3,1.0,0.12,0.2143,1.0,0,0.7778,0.0,PASS,0,5.58,788,measured_llm,eval_GSE113650_20260907T061208Z.json
+GSE95304,Held-Out Evaluation,Homo sapiens,FPKM (Descriptive),14387,2063,7,1.0,0.28,0.4375,0.7,3,0.7,0.0,PASS,1,19.42,2513,measured_llm,eval_GSE95304_20260907T061231Z.json
+GSE336903,Cross-Species Smoke Test,Mus musculus,FPKM (Descriptive),54289,3014,3,1.0,0.12,0.2143,1.0,0,0.7778,0.0,PASS,0,4.89,752,measured_llm,eval_GSE336903_20260907T061251Z.json

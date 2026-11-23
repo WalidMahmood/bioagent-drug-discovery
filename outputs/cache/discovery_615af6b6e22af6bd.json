@@ -1,0 +1,1083 @@
+{
+  "dataset": "NSCLC_EGFR-Driven_Tumor",
+  "disease_context": "non-small cell lung carcinoma",
+  "sources": {
+    "opentargets_queried": true,
+    "targets_mapped": 3,
+    "targets_evaluated": 3,
+    "pubmed_hits": 6,
+    "clinical_trials_hits": 6
+  },
+  "targets": [
+    {
+      "gene": "EGFR",
+      "ensembl_id": "ENSG00000146648",
+      "approved_name": "epidermal growth factor receptor",
+      "log2FC": 2.9,
+      "padj": 1e-18,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 86.2,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30.0,
+        "disease_evidence_0_25": 21.2,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 10.0
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 21,
+      "safety_events_sample": [
+        "ALT increase",
+        "AST increase",
+        "Diarrhea",
+        "Hepatotoxicity"
+      ],
+      "safety_warning": "21 known safety liabilities recorded in Open Targets; review organ toxicity before wet-lab translation.",
+      "total_known_drugs": 82,
+      "concordant_drugs_count": 72,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005233",
+          "name": "non-small cell lung carcinoma",
+          "score": 0.85
+        },
+        {
+          "id": "MONDO_0005061",
+          "name": "lung adenocarcinoma",
+          "score": 0.774
+        },
+        {
+          "id": "MONDO_0004992",
+          "name": "cancer",
+          "score": 0.737
+        },
+        {
+          "id": "MONDO_0010150",
+          "name": "head and neck squamous cell carcinoma",
+          "score": 0.725
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000146648"
+    },
+    {
+      "gene": "ERBB2",
+      "ensembl_id": "ENSG00000141736",
+      "approved_name": "erb-b2 receptor tyrosine kinase 2",
+      "log2FC": 1.8,
+      "padj": 1e-10,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 84.0,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 23.3,
+        "disease_evidence_0_25": 19.5,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 16.2
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 3,
+      "safety_events_sample": [
+        "cardiotoxicity",
+        "heart disease",
+        "more sensitive to trastuzamab"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 48,
+      "concordant_drugs_count": 41,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005233",
+          "name": "non-small cell lung carcinoma",
+          "score": 0.779
+        },
+        {
+          "id": "MONDO_0004992",
+          "name": "cancer",
+          "score": 0.775
+        },
+        {
+          "id": "MONDO_0001056",
+          "name": "gastric cancer",
+          "score": 0.729
+        },
+        {
+          "id": "MONDO_0004989",
+          "name": "breast carcinoma",
+          "score": 0.697
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000141736"
+    },
+    {
+      "gene": "TP53",
+      "ensembl_id": "ENSG00000141510",
+      "approved_name": "tumor protein p53",
+      "log2FC": -2.1,
+      "padj": 1e-12,
+      "direction": "down",
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "expected_moa_class": "activating",
+      "flip_rationale": "Suppressed expression in disease/perturbation state; candidate for restoration, agonism, or synthetic-lethality follow-up.",
+      "priority_score": 81.8,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 25.9,
+        "disease_evidence_0_25": 19.9,
+        "druggability_0_25": 21.0,
+        "safety_selectivity_0_20": 15.0
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 4,
+      "safety_events_sample": [
+        "regulation of transcription factor activity",
+        "Tumorigenesis, Hepatocellular carcinoma",
+        "drug toxicity",
+        "neutropenia"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 9,
+      "concordant_drugs_count": 1,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0018875",
+          "name": "Li-Fraumeni syndrome",
+          "score": 0.876
+        },
+        {
+          "id": "MONDO_0007256",
+          "name": "hepatocellular carcinoma",
+          "score": 0.797
+        },
+        {
+          "id": "MONDO_0010150",
+          "name": "head and neck squamous cell carcinoma",
+          "score": 0.777
+        },
+        {
+          "id": "MONDO_0009837",
+          "name": "choroid plexus papilloma",
+          "score": 0.766
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000141510"
+    }
+  ],
+  "concordant_drugs": [
+    {
+      "drug_id": "CHEMBL1173655",
+      "drug_name": "AFATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1173655"
+    },
+    {
+      "drug_id": "CHEMBL3545311",
+      "drug_name": "BRIGATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "ALK tyrosine kinase receptor inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "anaplastic large cell lymphoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3545311"
+    },
+    {
+      "drug_id": "CHEMBL4558324",
+      "drug_name": "LAZERTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "neoplasm",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4558324"
+    },
+    {
+      "drug_id": "CHEMBL2105712",
+      "drug_name": "AFATINIB DIMALEATE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2105712"
+    },
+    {
+      "drug_id": "CHEMBL1201827",
+      "drug_name": "PANITUMUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "colorectal cancer",
+        "colorectal adenocarcinoma",
+        "colorectal neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201827"
+    },
+    {
+      "drug_id": "CHEMBL554",
+      "drug_name": "LAPATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL554"
+    },
+    {
+      "drug_id": "CHEMBL6068478",
+      "drug_name": "LAZERTINIB MESYLATE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL6068478"
+    },
+    {
+      "drug_id": "CHEMBL3545308",
+      "drug_name": "ROCILETINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "neoplasm",
+        "lung cancer",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3545308"
+    },
+    {
+      "drug_id": "CHEMBL180022",
+      "drug_name": "NERATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast neoplasm",
+        "neoplasm",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL180022"
+    },
+    {
+      "drug_id": "CHEMBL3989921",
+      "drug_name": "NERATINIB MALEATE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3989921"
+    },
+    {
+      "drug_id": "CHEMBL3786343",
+      "drug_name": "OLMUTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "lung cancer",
+        "neoplasm",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3786343"
+    },
+    {
+      "drug_id": "CHEMBL553",
+      "drug_name": "ERLOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL553"
+    },
+    {
+      "drug_id": "CHEMBL1201179",
+      "drug_name": "LAPATINIB DITOSYLATE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201179"
+    },
+    {
+      "drug_id": "CHEMBL4650319",
+      "drug_name": "MOBOCERTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "neoplasm",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650319"
+    },
+    {
+      "drug_id": "CHEMBL2108359",
+      "drug_name": "NIMOTUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "head and neck cancer",
+        "glioblastoma",
+        "head and neck squamous cell carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108359"
+    },
+    {
+      "drug_id": "CHEMBL4761468",
+      "drug_name": "AUMOLERTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "neoplasm",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4761468"
+    },
+    {
+      "drug_id": "CHEMBL3545063",
+      "drug_name": "OSIMERTINIB MESYLATE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3545063"
+    },
+    {
+      "drug_id": "CHEMBL2087361",
+      "drug_name": "ICOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "neoplasm",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2087361"
+    },
+    {
+      "drug_id": "CHEMBL1079742",
+      "drug_name": "ERLOTINIB HYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "exocrine pancreatic carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1079742"
+    },
+    {
+      "drug_id": "CHEMBL4297774",
+      "drug_name": "AMIVANTAMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297774"
+    }
+  ],
+  "blocked_drugs": [
+    {
+      "drug_id": "CHEMBL4297574",
+      "drug_name": "TEPRASIRAN",
+      "drug_type": "Oligonucleotide",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "RNAI INHIBITOR",
+      "mechanism": "p53 mRNA RNAi inhibitor",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "renal artery disease"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (RNAI INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297574"
+    },
+    {
+      "drug_id": "CHEMBL2402737",
+      "drug_name": "IDASANUTLIN",
+      "drug_type": "Small molecule",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tumour suppressor p53/oncoprotein Mdm2 inhibitor",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "acute myeloid leukemia by FAB classification",
+        "acute myeloid leukemia"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2402737"
+    },
+    {
+      "drug_id": "CHEMBL3125702",
+      "drug_name": "NAVTEMADLIN",
+      "drug_type": "Small molecule",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tumour suppressor p53/oncoprotein Mdm2 inhibitor",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "myelofibrosis",
+        "essential thrombocythemia",
+        "acquired polycythemia vera"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3125702"
+    },
+    {
+      "drug_id": "CHEMBL3653256",
+      "drug_name": "SIREMADLIN",
+      "drug_type": "Small molecule",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tumour suppressor p53/oncoprotein Mdm2 inhibitor",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "metastatic malignant neoplasm",
+        "acute myeloid leukemia"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3653256"
+    },
+    {
+      "drug_id": "CHEMBL2108280",
+      "drug_name": "CENERSEN",
+      "drug_type": "Oligonucleotide",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "ANTISENSE INHIBITOR",
+      "mechanism": "p53 mRNA antisense inhibitor",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "acute myeloid leukemia by FAB classification",
+        "acute myeloid leukemia",
+        "myelodysplastic syndrome"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (ANTISENSE INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108280"
+    },
+    {
+      "drug_id": "CHEMBL2219776",
+      "drug_name": "CENERSEN SODIUM",
+      "drug_type": "Oligonucleotide",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "ANTISENSE INHIBITOR",
+      "mechanism": "p53 mRNA antisense inhibitor",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "acute myeloid leukemia",
+        "B-cell chronic lymphocytic leukemia",
+        "B-cell chronic lymphocytic leukemia"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (ANTISENSE INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2219776"
+    },
+    {
+      "drug_id": "CHEMBL4091801",
+      "drug_name": "ALRIZOMADLIN",
+      "drug_type": "Small molecule",
+      "target_gene": "TP53",
+      "target_log2FC": -2.1,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tumour suppressor p53/oncoprotein Mdm2 inhibitor",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "non-Hodgkin lymphoma",
+        "T-cell prolymphocytic leukemia"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (INHIBITOR) conflicts with an already downregulated gene (log2FC=-2.10).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4091801"
+    }
+  ],
+  "neutral_drugs": [
+    {
+      "drug_id": "CHEMBL4298088",
+      "drug_name": "CETUXIMAB SAROTALOCAN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Epidermal growth factor receptor erbB1 binding agent",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "head and neck cancer",
+        "head and neck squamous cell carcinoma",
+        "head and neck squamous cell carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4298088"
+    },
+    {
+      "drug_id": "CHEMBL2109391",
+      "drug_name": "MDX-447",
+      "drug_type": "Unknown",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "CROSS-LINKING AGENT",
+      "mechanism": "Epidermal growth factor receptor erbB1 cross-linking agent",
+      "clinical_stage": "PHASE_1",
+      "clinical_stage_label": "Phase 1 Clinical",
+      "stage_rank": 1,
+      "indications": [
+        "glioblastoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (CROSS-LINKING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109391"
+    },
+    {
+      "drug_id": "CHEMBL2109389",
+      "drug_name": "IMGATUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Epidermal growth factor receptor erbB1 antagonist",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "metastatic colorectal cancer",
+        "non-small cell lung carcinoma",
+        "colorectal cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109389"
+    },
+    {
+      "drug_id": "CHEMBL2109388",
+      "drug_name": "FUTUXIMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Epidermal growth factor receptor erbB1 antagonist",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "metastatic colorectal cancer",
+        "colorectal carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109388"
+    },
+    {
+      "drug_id": "CHEMBL3707277",
+      "drug_name": "DEPATUXIZUMAB MAFODOTIN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Epidermal growth factor receptor erbB1 binding agent",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "glioblastoma",
+        "glioblastoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3707277"
+    },
+    {
+      "drug_id": "CHEMBL3989988",
+      "drug_name": "MODOTUXIMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Epidermal growth factor receptor erbB1 antagonist",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "colorectal carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3989988"
+    },
+    {
+      "drug_id": "CHEMBL2107861",
+      "drug_name": "ZALUTUMUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Epidermal growth factor receptor erbB1 antagonist",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "head and neck cancer",
+        "head and neck squamous cell carcinoma",
+        "head and neck squamous cell carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2107861"
+    },
+    {
+      "drug_id": "CHEMBL2107863",
+      "drug_name": "RINDOPEPIMUT",
+      "drug_type": "Unknown",
+      "target_gene": "EGFR",
+      "target_log2FC": 2.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "VACCINE ANTIGEN",
+      "mechanism": "Epidermal growth factor receptor erbB1 vaccine antigen",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "brain cancer",
+        "glioblastoma",
+        "glioblastoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (VACCINE ANTIGEN) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2107863"
+    },
+    {
+      "drug_id": "CHEMBL1743082",
+      "drug_name": "TRASTUZUMAB EMTANSINE",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 1.8,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743082"
+    },
+    {
+      "drug_id": "CHEMBL5095273",
+      "drug_name": "DISITAMAB VEDOTIN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 1.8,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor tyrosine-protein kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer",
+        "urothelial carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL5095273"
+    }
+  ],
+  "literature": [
+    {
+      "pmid": "31194405",
+      "gene": "EGFR",
+      "title": "Afatinib",
+      "journal": "",
+      "pub_date": "2024 Jan",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31194405/"
+    },
+    {
+      "pmid": "29183778",
+      "gene": "EGFR",
+      "title": "Current WHO guidelines and the critical role of immunohistochemical markers in the subclassification of non-small cell lung carcinoma (NSCLC): Moving from targeted therapy to immunotherapy",
+      "journal": "Seminars in cancer biology",
+      "pub_date": "2018 Oct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29183778/"
+    },
+    {
+      "pmid": "38199926",
+      "gene": "ERBB2",
+      "title": "Prognostic and predictive biomarkers in non-small cell lung carcinoma",
+      "journal": "Pathology",
+      "pub_date": "2024 Mar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38199926/"
+    },
+    {
+      "pmid": "30188361",
+      "gene": "ERBB2",
+      "title": "Diagnostic and Predictive Immunohistochemistry for Non-Small Cell Lung Carcinomas",
+      "journal": "Advances in anatomic pathology",
+      "pub_date": "2018 Nov",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30188361/"
+    },
+    {
+      "pmid": "34175504",
+      "gene": "TP53",
+      "title": "Going beneath the tip of the iceberg. Identifying and understanding EML4-ALK variants and TP53 mutations to optimize treatment of ALK fusion positive (ALK+) NSCLC",
+      "journal": "Lung cancer (Amsterdam, Netherlands)",
+      "pub_date": "2021 Aug",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34175504/"
+    },
+    {
+      "pmid": "28668385",
+      "gene": "TP53",
+      "title": "Driving to Cancer on a Four-Lane Expressway",
+      "journal": "Trends in genetics : TIG",
+      "pub_date": "2017 Aug",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28668385/"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT02191059",
+      "query_gene_or_drug": "EGFR",
+      "title": "Phase II Clinical Study of Intermittent High Dose of Icotinib in Combination With Docetaxel to Treat Lung Cancer",
+      "status": "UNKNOWN",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT02191059"
+    },
+    {
+      "nct_id": "NCT01221077",
+      "query_gene_or_drug": "EGFR",
+      "title": "Study of Erlotinib (Tarceva\u00ae) in Combination With OSI-906 in Patients With Advanced Non-small Cell Lung Cancer (NSCLC) With Activating Mutations of the Epidermal Growth Factor Receptor (EGFR) Gene",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT01221077"
+    },
+    {
+      "nct_id": "NCT04916002",
+      "query_gene_or_drug": "ERBB2",
+      "title": "A Trial To Find Out If Vidutolimod Together With Cemiplimab Is Safe And If It Works In Adult Participants With Advanced Cancer Or Metastatic Cancer",
+      "status": "TERMINATED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT04916002"
+    },
+    {
+      "nct_id": "NCT04777175",
+      "query_gene_or_drug": "ERBB2",
+      "title": "A Retrospective Study: Evaluation of the Efficacy of Immunotherapy With Rare Mutations in Non-small Cell Lung Cancer",
+      "status": "UNKNOWN",
+      "phase": "N/A",
+      "url": "https://clinicaltrials.gov/study/NCT04777175"
+    },
+    {
+      "nct_id": "NCT02432963",
+      "query_gene_or_drug": "TP53",
+      "title": "Vaccine Therapy and Pembrolizumab in Treating Patients With Solid Tumors That Have Failed Prior Therapy",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "url": "https://clinicaltrials.gov/study/NCT02432963"
+    },
+    {
+      "nct_id": "NCT06030869",
+      "query_gene_or_drug": "TP53",
+      "title": "MyCustom:Prospective Master Protocol Trial on Precision Medicine Treatment for Refractory Solid Tumors",
+      "status": "UNKNOWN",
+      "phase": "N/A",
+      "url": "https://clinicaltrials.gov/study/NCT06030869"
+    }
+  ],
+  "wetlab_plan": {
+    "dataset": "NSCLC_EGFR-Driven_Tumor",
+    "disease_context": "non-small cell lung carcinoma",
+    "recommended_qpcr_panel": [
+      "EGFR",
+      "ERBB2",
+      "TP53"
+    ],
+    "priority_targets": [
+      "EGFR",
+      "ERBB2",
+      "TP53"
+    ],
+    "actionable_steps": [
+      "Drug Repurposing Viability Screen: Test AFATINIB (INHIBITOR, Approved (Phase 4)) targeting EGFR in a 6-point dose-response assay (72h CellTiter-Glo / viability readout) in a non-small cell lung carcinoma cell model.",
+      "Genetic Flip Confirmation (Loss-of-Function): Perform siRNA or CRISPRi knockdown of EGFR (observed log2FC=+2.90) to confirm whether suppressing this candidate reverses disease phenotype or restores drug sensitivity.",
+      "Rescue / Biomarker Tracking: Monitor restoration of suppressed marker TP53 (log2FC=-2.10) after perturbation or compound treatment.",
+      "Orthogonal 5-Gene RT-qPCR Validation Panel: Quantify EGFR, ERBB2, TP53 alongside housekeeping controls across >=3 biological replicates."
+    ],
+    "caution": "All wet-lab validation suggestions are hypothesis-generating research plans derived from transcriptomic and Open Targets / PubMed / ClinicalTrials.gov evidence\u2014not clinical treatment protocols."
+  },
+  "moa_audit_summary": {
+    "concordant_count": 114,
+    "discordant_blocked_count": 7,
+    "neutral_review_count": 16,
+    "guard_status": "ACTIVE \u2014 Mechanistically discordant drugs automatically blocked"
+  },
+  "latency_s": 7.76,
+  "cached": false
+}

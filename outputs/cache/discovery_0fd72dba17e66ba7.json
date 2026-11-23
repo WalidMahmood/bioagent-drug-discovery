@@ -1,0 +1,1232 @@
+{
+  "dataset": "PDAC_Gemcitabine",
+  "disease_context": "Pancreatic Ductal Adenocarcinoma",
+  "sources": {
+    "opentargets_queried": true,
+    "targets_mapped": 10,
+    "targets_evaluated": 10,
+    "pubmed_hits": 2,
+    "clinical_trials_hits": 5
+  },
+  "targets": [
+    {
+      "gene": "MET",
+      "ensembl_id": "ENSG00000105976",
+      "approved_name": "MET proto-oncogene, receptor tyrosine kinase",
+      "log2FC": 2.703,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 94.6,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30,
+        "disease_evidence_0_25": 20.8,
+        "druggability_0_25": 25,
+        "safety_selectivity_0_20": 18.8
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 1,
+      "safety_events_sample": [
+        "regulation of catalytic activity"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 38,
+      "concordant_drugs_count": 35,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0017884",
+          "name": "papillary renal cell carcinoma",
+          "score": 0.834
+        },
+        {
+          "id": "MONDO_0003789",
+          "name": "hereditary papillary renal cell carcinoma",
+          "score": 0.767
+        },
+        {
+          "id": "MONDO_0007256",
+          "name": "hepatocellular carcinoma",
+          "score": 0.758
+        },
+        {
+          "id": "MONDO_0005086",
+          "name": "renal cell carcinoma",
+          "score": 0.729
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000105976"
+    },
+    {
+      "gene": "AXL",
+      "ensembl_id": "ENSG00000167601",
+      "approved_name": "AXL receptor tyrosine kinase",
+      "log2FC": 2.856,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 88.7,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30,
+        "disease_evidence_0_25": 14.9,
+        "druggability_0_25": 25,
+        "safety_selectivity_0_20": 18.8
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 1,
+      "safety_events_sample": [
+        "coronary artery disease"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 7,
+      "concordant_drugs_count": 6,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0018874",
+          "name": "acute myeloid leukemia",
+          "score": 0.596
+        },
+        {
+          "id": "MONDO_0005559",
+          "name": "neurodegenerative disease",
+          "score": 0.567
+        },
+        {
+          "id": "MONDO_0004975",
+          "name": "Alzheimer disease",
+          "score": 0.536
+        },
+        {
+          "id": "MONDO_0005180",
+          "name": "Parkinson disease",
+          "score": 0.528
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000167601"
+    },
+    {
+      "gene": "BCL2",
+      "ensembl_id": "ENSG00000171791",
+      "approved_name": "BCL2 apoptosis regulator",
+      "log2FC": 1.991,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 85.9,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 24.9,
+        "disease_evidence_0_25": 18.5,
+        "druggability_0_25": 25,
+        "safety_selectivity_0_20": 17.5
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 2,
+      "safety_events_sample": [
+        "neurotoxicity",
+        "regulation of transcription factor activity"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 7,
+      "concordant_drugs_count": 7,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0004948",
+          "name": "B-cell chronic lymphocytic leukemia",
+          "score": 0.74
+        },
+        {
+          "id": "MONDO_0005070",
+          "name": "neoplasm",
+          "score": 0.605
+        },
+        {
+          "id": "MONDO_0018905",
+          "name": "diffuse large B-cell lymphoma",
+          "score": 0.554
+        },
+        {
+          "id": "MONDO_0005559",
+          "name": "neurodegenerative disease",
+          "score": 0.541
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000171791"
+    },
+    {
+      "gene": "COL1A1",
+      "ensembl_id": "ENSG00000108821",
+      "approved_name": "collagen type I alpha 1 chain",
+      "log2FC": 2.036,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 80.3,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 25.3,
+        "disease_evidence_0_25": 21.2,
+        "druggability_0_25": 15,
+        "safety_selectivity_0_20": 18.8
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 1,
+      "safety_events_sample": [
+        "bone density"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 2,
+      "concordant_drugs_count": 0,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0008147",
+          "name": "osteogenesis imperfecta type 2",
+          "score": 0.847
+        },
+        {
+          "id": "MONDO_0008148",
+          "name": "osteogenesis imperfecta type 4",
+          "score": 0.837
+        },
+        {
+          "id": "MONDO_0009804",
+          "name": "osteogenesis imperfecta type 3",
+          "score": 0.835
+        },
+        {
+          "id": "MONDO_0008146",
+          "name": "osteogenesis imperfecta type 1",
+          "score": 0.834
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000108821"
+    },
+    {
+      "gene": "FN1",
+      "ensembl_id": "ENSG00000115414",
+      "approved_name": "fibronectin 1",
+      "log2FC": 1.915,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 79.3,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 24.3,
+        "disease_evidence_0_25": 20,
+        "druggability_0_25": 15,
+        "safety_selectivity_0_20": 20
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 0,
+      "safety_events_sample": [],
+      "safety_warning": null,
+      "total_known_drugs": 5,
+      "concordant_drugs_count": 0,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0008479",
+          "name": "spondylometaphyseal dysplasia, 'corner fracture' type",
+          "score": 0.799
+        },
+        {
+          "id": "MONDO_0011165",
+          "name": "glomerulopathy with fibronectin deposits 2",
+          "score": 0.742
+        },
+        {
+          "id": "MONDO_0004992",
+          "name": "cancer",
+          "score": 0.625
+        },
+        {
+          "id": "MONDO_0005010",
+          "name": "coronary artery disorder",
+          "score": 0.591
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000115414"
+    },
+    {
+      "gene": "RRM1",
+      "ensembl_id": "ENSG00000167325",
+      "approved_name": "ribonucleotide reductase catalytic subunit M1",
+      "log2FC": 2.838,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 77.9,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30,
+        "disease_evidence_0_25": 14.6,
+        "druggability_0_25": 25,
+        "safety_selectivity_0_20": 8.3
+      },
+      "is_essential": true,
+      "tractable_modalities": [
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 3,
+      "safety_events_sample": [
+        "nausea",
+        "neutropenia",
+        "progression-free survival"
+      ],
+      "safety_warning": "Pan-essential gene in DepMap/Open Targets: systemic inhibition carries healthy-cell toxicity risk.",
+      "total_known_drugs": 10,
+      "concordant_drugs_count": 9,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005233",
+          "name": "non-small cell lung carcinoma",
+          "score": 0.618
+        },
+        {
+          "id": "MONDO_0004948",
+          "name": "B-cell chronic lymphocytic leukemia",
+          "score": 0.595
+        },
+        {
+          "id": "MONDO_0005192",
+          "name": "exocrine pancreatic carcinoma",
+          "score": 0.584
+        },
+        {
+          "id": "MONDO_0011382",
+          "name": "sickle cell disease",
+          "score": 0.581
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000167325"
+    },
+    {
+      "gene": "ABCB1",
+      "ensembl_id": "ENSG00000085563",
+      "approved_name": "ATP binding cassette subfamily B member 1",
+      "log2FC": 3.211,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 74.7,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30,
+        "disease_evidence_0_25": 13.7,
+        "druggability_0_25": 21,
+        "safety_selectivity_0_20": 10
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 72,
+      "safety_events_sample": [
+        "CD4-cell count",
+        "CNS depression",
+        "CNS depression in breast-feeding infants",
+        "Lymphopenia"
+      ],
+      "safety_warning": "72 recorded safety liabilities in Open Targets; review organ toxicity before translation.",
+      "total_known_drugs": 5,
+      "concordant_drugs_count": 5,
+      "associated_diseases": [
+        {
+          "id": "EFO_0022041",
+          "name": "response to tramadol",
+          "score": 0.547
+        },
+        {
+          "id": "MONDO_0975801",
+          "name": "encephalopathy, acute transient",
+          "score": 0.416
+        },
+        {
+          "id": "MONDO_0018874",
+          "name": "acute myeloid leukemia",
+          "score": 0.391
+        },
+        {
+          "id": "MONDO_0005265",
+          "name": "inflammatory bowel disease",
+          "score": 0.39
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000085563"
+    },
+    {
+      "gene": "MCL1",
+      "ensembl_id": "ENSG00000143384",
+      "approved_name": "MCL1 apoptosis regulator, BCL2 family member",
+      "log2FC": 2.122,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 71.3,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 26,
+        "disease_evidence_0_25": 12.3,
+        "druggability_0_25": 21,
+        "safety_selectivity_0_20": 12
+      },
+      "is_essential": true,
+      "tractable_modalities": [
+        "AB",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 0,
+      "safety_events_sample": [],
+      "safety_warning": "Pan-essential gene in DepMap/Open Targets: systemic inhibition carries healthy-cell toxicity risk.",
+      "total_known_drugs": 2,
+      "concordant_drugs_count": 2,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005559",
+          "name": "neurodegenerative disease",
+          "score": 0.49
+        },
+        {
+          "id": "EFO_1000243",
+          "name": "Epidermal Inclusion Cyst",
+          "score": 0.412
+        },
+        {
+          "id": "MONDO_0005159",
+          "name": "prostate carcinoma",
+          "score": 0.388
+        },
+        {
+          "id": "HP_0000924",
+          "name": "Abnormality of the skeletal system",
+          "score": 0.346
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000143384"
+    },
+    {
+      "gene": "SNAI1",
+      "ensembl_id": "ENSG00000124216",
+      "approved_name": "snail family transcriptional repressor 1",
+      "log2FC": 2.266,
+      "padj": 1.25e-298,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease or resistance state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 71.1,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 27.3,
+        "disease_evidence_0_25": 10.8,
+        "druggability_0_25": 13,
+        "safety_selectivity_0_20": 20
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 0,
+      "safety_events_sample": [],
+      "safety_warning": null,
+      "total_known_drugs": 0,
+      "concordant_drugs_count": 0,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005559",
+          "name": "neurodegenerative disease",
+          "score": 0.434
+        },
+        {
+          "id": "HP_0000924",
+          "name": "Abnormality of the skeletal system",
+          "score": 0.431
+        },
+        {
+          "id": "MONDO_0005178",
+          "name": "osteoarthritis",
+          "score": 0.381
+        },
+        {
+          "id": "MONDO_0005083",
+          "name": "psoriasis",
+          "score": 0.358
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000124216"
+    },
+    {
+      "gene": "DCK",
+      "ensembl_id": "ENSG00000156136",
+      "approved_name": "deoxycytidine kinase",
+      "log2FC": -2.84,
+      "padj": 1.25e-298,
+      "direction": "down",
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "expected_moa_class": "activating",
+      "flip_rationale": "Suppressed expression in disease or resistance state; candidate for restoration, agonism, or rescue validation.",
+      "priority_score": 66.2,
+      "evidence_tier": "Tier 2: Clinical / Tractable Candidate",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30,
+        "disease_evidence_0_25": 4.4,
+        "druggability_0_25": 13,
+        "safety_selectivity_0_20": 18.8
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 1,
+      "safety_events_sample": [
+        "neutropenia"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 0,
+      "concordant_drugs_count": 0,
+      "associated_diseases": [
+        {
+          "id": "EFO_0009888",
+          "name": "trauma complication",
+          "score": 0.175
+        },
+        {
+          "id": "EFO_0002571",
+          "name": "medical procedure",
+          "score": 0.175
+        },
+        {
+          "id": "EFO_0009518",
+          "name": "complication",
+          "score": 0.175
+        },
+        {
+          "id": "MONDO_0001889",
+          "name": "ovarian dysfunction",
+          "score": 0.174
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000156136"
+    }
+  ],
+  "concordant_drugs": [
+    {
+      "drug_id": "CHEMBL3301622",
+      "drug_name": "GILTERITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "AXL",
+      "target_log2FC": 2.856,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase receptor FLT3 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "acute myeloid leukemia by FAB classification",
+        "acute myeloid leukemia",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.86).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3301622"
+    },
+    {
+      "drug_id": "CHEMBL3301603",
+      "drug_name": "GILTERITINIB FUMARATE",
+      "drug_type": "Small molecule",
+      "target_gene": "AXL",
+      "target_log2FC": 2.856,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase receptor FLT3 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "acute myeloid leukemia",
+        "myeloid leukemia"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.86).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3301603"
+    },
+    {
+      "drug_id": "CHEMBL1200983",
+      "drug_name": "GALLIUM NITRATE",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "hypercalcemia disease",
+        "non-Hodgkin lymphoma",
+        "diffuse large B-cell lymphoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1200983"
+    },
+    {
+      "drug_id": "CHEMBL1637",
+      "drug_name": "GEMCITABINE HYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "ovarian carcinoma",
+        "non-small cell lung carcinoma",
+        "exocrine pancreatic carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1637"
+    },
+    {
+      "drug_id": "CHEMBL888",
+      "drug_name": "GEMCITABINE",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL888"
+    },
+    {
+      "drug_id": "CHEMBL467",
+      "drug_name": "HYDROXYUREA",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "sickle cell disease",
+        "sickle cell disease"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL467"
+    },
+    {
+      "drug_id": "CHEMBL1096882",
+      "drug_name": "FLUDARABINE PHOSPHATE",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Ribonucleoside-diphosphate reductase RR1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "B-cell chronic lymphocytic leukemia",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1096882"
+    },
+    {
+      "drug_id": "CHEMBL3544910",
+      "drug_name": "MOTEXAFIN GADOLINIUM",
+      "drug_type": "Small molecule",
+      "target_gene": "RRM1",
+      "target_log2FC": 2.838,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Thioredoxin reductase 1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "brain cancer",
+        "HIV infectious disease"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.84).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3544910"
+    },
+    {
+      "drug_id": "CHEMBL3402762",
+      "drug_name": "TEPOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Hepatocyte growth factor receptor inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3402762"
+    },
+    {
+      "drug_id": "CHEMBL601719",
+      "drug_name": "CRIZOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Hepatocyte growth factor receptor inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL601719"
+    },
+    {
+      "drug_id": "CHEMBL3188267",
+      "drug_name": "CAPMATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Hepatocyte growth factor receptor inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3188267"
+    },
+    {
+      "drug_id": "CHEMBL4297774",
+      "drug_name": "AMIVANTAMAB",
+      "drug_type": "Antibody",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297774"
+    },
+    {
+      "drug_id": "CHEMBL2103868",
+      "drug_name": "CABOZANTINIB S-MALATE",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Vascular endothelial growth factor receptor 2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "thyroid gland carcinoma",
+        "renal cell carcinoma",
+        "astrocytic tumor"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2103868"
+    },
+    {
+      "drug_id": "CHEMBL2105717",
+      "drug_name": "CABOZANTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Vascular endothelial growth factor receptor 2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "medullary thyroid gland carcinoma",
+        "hepatocellular carcinoma",
+        "renal cell carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2105717"
+    },
+    {
+      "drug_id": "CHEMBL3989937",
+      "drug_name": "CAPMATINIB HYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Hepatocyte growth factor receptor inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3989937"
+    },
+    {
+      "drug_id": "CHEMBL4594292",
+      "drug_name": "TEPOTINIB HYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Hepatocyte growth factor receptor inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4594292"
+    },
+    {
+      "drug_id": "CHEMBL443684",
+      "drug_name": "NAVITOCLAX",
+      "drug_type": "Small molecule",
+      "target_gene": "BCL2",
+      "target_log2FC": 1.991,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Apoptosis regulator Bcl-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "neoplasm",
+        "myelofibrosis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.99).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL443684"
+    },
+    {
+      "drug_id": "CHEMBL2108324",
+      "drug_name": "OBLIMERSEN",
+      "drug_type": "Oligonucleotide",
+      "target_gene": "BCL2",
+      "target_log2FC": 1.991,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTISENSE INHIBITOR",
+      "mechanism": "Bcl-2 mRNA antisense inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "neoplasm",
+        "melanoma",
+        "plasma cell myeloma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (ANTISENSE INHIBITOR) matches upregulated target (log2FC=+1.99).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108324"
+    },
+    {
+      "drug_id": "CHEMBL3137309",
+      "drug_name": "VENETOCLAX",
+      "drug_type": "Small molecule",
+      "target_gene": "BCL2",
+      "target_log2FC": 1.991,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Apoptosis regulator Bcl-2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "B-cell chronic lymphocytic leukemia",
+        "B-cell chronic lymphocytic leukemia"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.99).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3137309"
+    },
+    {
+      "drug_id": "CHEMBL348475",
+      "drug_name": "TARIQUIDAR",
+      "drug_type": "Small molecule",
+      "target_gene": "ABCB1",
+      "target_log2FC": 3.211,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "P-glycoprotein 1 inhibitor",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "adrenal cortex carcinoma",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.21).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL348475"
+    }
+  ],
+  "blocked_drugs": [
+    {
+      "drug_id": "CHEMBL2108332",
+      "drug_name": "BEPERMINOGENE PERPLASMID",
+      "drug_type": "Gene",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "AGONIST",
+      "mechanism": "Hepatocyte growth factor receptor agonist",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "cardiovascular disorder",
+        "heart disorder"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: activating drug (AGONIST) would worsen an already upregulated gene (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108332"
+    },
+    {
+      "drug_id": "CHEMBL4650326",
+      "drug_name": "TEREVALEFIM",
+      "drug_type": "Small molecule",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "AGONIST",
+      "mechanism": "Hepatocyte growth factor receptor agonist",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "congestive heart failure",
+        "graft versus host disease"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: activating drug (AGONIST) would worsen an already upregulated gene (log2FC=+2.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650326"
+    }
+  ],
+  "neutral_drugs": [
+    {
+      "drug_id": "CHEMBL5095312",
+      "drug_name": "MECBOTAMAB VEDOTIN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "AXL",
+      "target_log2FC": 2.856,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Tyrosine-protein kinase receptor UFO binding agent",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "ovarian cancer",
+        "soft tissue sarcoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL5095312"
+    },
+    {
+      "drug_id": "CHEMBL1743051",
+      "drug_name": "ONARTUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "MET",
+      "target_log2FC": 2.703,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Hepatocyte growth factor receptor antagonist",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "gastric adenocarcinoma",
+        "gastroesophageal junction adenocarcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743051"
+    },
+    {
+      "drug_id": "CHEMBL1743060",
+      "drug_name": "RADRETUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "FN1",
+      "target_log2FC": 1.915,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Fibronectin binding agent",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743060"
+    },
+    {
+      "drug_id": "CHEMBL2109608",
+      "drug_name": "L19IL2",
+      "drug_type": "Unknown",
+      "target_gene": "FN1",
+      "target_log2FC": 1.915,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Fibronectin binding agent",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "melanoma",
+        "non-small cell lung carcinoma",
+        "basal cell carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109608"
+    },
+    {
+      "drug_id": "CHEMBL2109413",
+      "drug_name": "AS-1409",
+      "drug_type": "Unknown",
+      "target_gene": "FN1",
+      "target_log2FC": 1.915,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Fibronectin binding agent",
+      "clinical_stage": "PHASE_1",
+      "clinical_stage_label": "Phase 1 Clinical",
+      "stage_rank": 1,
+      "indications": [
+        "renal cell carcinoma",
+        "melanoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109413"
+    },
+    {
+      "drug_id": "CHEMBL2109589",
+      "drug_name": "L19TNFA",
+      "drug_type": "Unknown",
+      "target_gene": "FN1",
+      "target_log2FC": 1.915,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Fibronectin binding agent",
+      "clinical_stage": "PHASE_1_2",
+      "clinical_stage_label": "Phase 1/2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "colorectal cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2109589"
+    }
+  ],
+  "literature": [
+    {
+      "pmid": "31672839",
+      "gene": "MET",
+      "title": "Management of patients with increased risk for familial pancreatic cancer: updated recommendations from the International Cancer of the Pancreas Screening (CAPS) Consortium",
+      "journal": "Gut",
+      "pub_date": "2020 Jan",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31672839/"
+    },
+    {
+      "pmid": "38975874",
+      "gene": "MET",
+      "title": "Mechanisms of Resistance to Oncogenic KRAS Inhibition in Pancreatic Cancer",
+      "journal": "Cancer discovery",
+      "pub_date": "2024 Nov 1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38975874/"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT06077487",
+      "query_gene_or_drug": "MET",
+      "title": "Ketamine-assisted Therapy for Advanced GI Cancer",
+      "status": "TERMINATED",
+      "phase": "PHASE4",
+      "url": "https://clinicaltrials.gov/study/NCT06077487"
+    },
+    {
+      "nct_id": "NCT03193190",
+      "query_gene_or_drug": "MET",
+      "title": "A Study of Multiple Immunotherapy-Based Treatment Combinations in Participants With Metastatic Pancreatic Ductal Adenocarcinoma (Morpheus-Pancreatic Cancer)",
+      "status": "COMPLETED",
+      "phase": "PHASE1, PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT03193190"
+    },
+    {
+      "nct_id": "NCT05346536",
+      "query_gene_or_drug": "AXL",
+      "title": "Liquid Biopsy and Pancreas Cancer: Detection of AXL(+) CTCs (CTC-AXL-PANC)",
+      "status": "RECRUITING",
+      "phase": "NA",
+      "url": "https://clinicaltrials.gov/study/NCT05346536"
+    },
+    {
+      "nct_id": "NCT07619313",
+      "query_gene_or_drug": "AXL",
+      "title": "AB801 in Combination With Chemotherapy and Immunotherapy for the Treatment of Patients With Borderline Resectable, Locally Advanced or Metastatic Cholangiocarcinoma or Pancreatic Cancer",
+      "status": "RECRUITING",
+      "phase": "PHASE1",
+      "url": "https://clinicaltrials.gov/study/NCT07619313"
+    },
+    {
+      "nct_id": "NCT02978547",
+      "query_gene_or_drug": "BCL2",
+      "title": "The Effects of Neoadjuvant Metformin on Tumour Cell Proliferation and Tumour Progression in Pancreatic Ductal Adenocarcinoma",
+      "status": "UNKNOWN",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT02978547"
+    }
+  ],
+  "wetlab_plan": {
+    "dataset": "PDAC_Gemcitabine",
+    "disease_context": "Pancreatic Ductal Adenocarcinoma",
+    "recommended_qpcr_panel": [
+      "MET",
+      "AXL",
+      "BCL2",
+      "DCK"
+    ],
+    "priority_targets": [
+      "MET",
+      "AXL",
+      "BCL2"
+    ],
+    "actionable_steps": [
+      "Drug Repurposing Viability Screen: Test GILTERITINIB (INHIBITOR, FDA / Regulatory Approved) targeting AXL across a 6-point dose-response assay (72h viability readout) in a Pancreatic Ductal Adenocarcinoma model.",
+      "Genetic Flip Confirmation (Turn OFF): Perform siRNA or CRISPRi knockdown of MET (log2FC=+2.70) to verify phenotype reversal or restored drug sensitivity.",
+      "Rescue / Biomarker Tracking (Turn ON): Track expression recovery of suppressed marker DCK (log2FC=-2.84) following perturbation or drug treatment.",
+      "Orthogonal 5-Gene RT-qPCR Validation Panel: Measure MET, AXL, BCL2, DCK alongside housekeeping controls across >=3 biological replicates."
+    ],
+    "caution": "All wet-lab suggestions are exploratory research hypotheses derived from differential expression, Open Targets, PubMed, and ClinicalTrials.gov—not clinical treatment protocols."
+  },
+  "moa_audit_summary": {
+    "concordant_count": 64,
+    "discordant_blocked_count": 2,
+    "neutral_review_count": 6,
+    "guard_status": "ACTIVE — Mechanistically discordant drugs automatically blocked"
+  },
+  "latency_s": 2.69,
+  "cached": false
+}

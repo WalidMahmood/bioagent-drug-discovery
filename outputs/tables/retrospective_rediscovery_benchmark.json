@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-22T19:01:10.743011+00:00",
+  "cases_passed": 3,
+  "cases_total": 3,
+  "rediscovery_rate": 1.0,
+  "results": [
+    {
+      "case": "NSCLC EGFR-Driven Tumor",
+      "disease": "non-small cell lung carcinoma",
+      "passed": true,
+      "matched_known_drugs": [
+        "AFATINIB",
+        "OSIMERTINIB",
+        "ERLOTINIB",
+        "LAPATINIB"
+      ],
+      "concordant_drugs_found": 20,
+      "discordant_drugs_blocked": 7,
+      "pubmed_hits": 6,
+      "clinical_trials_hits": 6
+    },
+    {
+      "case": "HER2+ Breast Cancer",
+      "disease": "breast carcinoma",
+      "passed": true,
+      "matched_known_drugs": [
+        "TRASTUZUMAB",
+        "LAPATINIB",
+        "PALBOCICLIB",
+        "RIBOCICLIB",
+        "ABEMACICLIB"
+      ],
+      "concordant_drugs_found": 20,
+      "discordant_drugs_blocked": 6,
+      "pubmed_hits": 6,
+      "clinical_trials_hits": 5
+    },
+    {
+      "case": "Autoimmune / Rheumatoid Inflammation (General Disease)",
+      "disease": "rheumatoid arthritis",
+      "passed": true,
+      "matched_known_drugs": [
+        "INFLIXIMAB",
+        "TOFACITINIB",
+        "BARICITINIB",
+        "UPADACITINIB"
+      ],
+      "concordant_drugs_found": 20,
+      "discordant_drugs_blocked": 0,
+      "pubmed_hits": 6,
+      "clinical_trials_hits": 5
+    }
+  ]
+}

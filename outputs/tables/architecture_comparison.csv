@@ -1,0 +1,4 @@
+System,Model,DE Precision,DE Recall,DE F1,Statistical Accuracy,Direction Errors,Evidence Support Rate,Hallucination Rate,Latency (s),Tokens,Provenance,Trace File
+LLM-only (Baseline 1),Gemma-3-4B-IT-Q8,0.2,0.04,0.0667,0.2222,0,0.0,0.7778,9.44,720,measured_llm,baseline_llm_only_GSE202768_20260906T181002Z.json
+Single Tool-Agent (Baseline 2),Gemma-3-4B-IT-Q8,1.0,0.6,0.75,1.0,0,N/A (not stored in legacy trace),0.0,19.59,1772,measured_llm (legacy top-15 prompt),baseline_single_agent_GSE202768_20260906T181011Z.json
+BioAgent-Lite (5-Agent Proposed),Gemma-3-4B-IT-Q8,1.0,0.44,0.6111,0.7857,3,0.5789,0.0,25.46,2756,measured_llm,eval_GSE202768_20260907T061142Z.json

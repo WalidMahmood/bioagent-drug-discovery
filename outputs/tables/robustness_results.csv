@@ -1,0 +1,7 @@
+Perturbation,Test_Scope,Target Component,Expected Outcome,Observed Outcome,Detected,Errors Logged
+R1: Corrupted Metadata (Missing Sample),Deterministic Guardrail Unit Test,tools/validation.py (validate_metadata),Refuse / raise ValueError,Caught missing sample mismatch before DE execution,YES,1
+R2: Hallucinated Gene Citation (FAKEGENE_XYZ999),Deterministic Guardrail Unit Test,agents/critic.py (audit),Critic FAIL,Verdict: FAIL (unverified gene rejected),YES,1
+R3: Direction Inversion (PRRX1 log2FC=-2.28 claimed up),Deterministic Guardrail Unit Test,agents/critic.py (audit),Critic FAIL,Verdict: FAIL (direction mismatch caught),YES,1
+R4: Unhedged Causal & Clinical Overclaim,Deterministic Guardrail Unit Test,agents/critic.py (audit),Critic FAIL,Verdict: FAIL (non-hedged causal/clinical claim blocked),YES,2
+R5: §13 FPKM Guardrail Violation (DESeq2 on FPKM),Deterministic Guardrail Unit Test,agents/critic.py + tools/validation.py,Critic FAIL / assert_is_counts refusal,Verdict: FAIL (DESeq2 forbidden on descriptive FPKM),YES,1
+R6: No PASS-Laundering (Untagged Direction Inversion in Prose),Deterministic Guardrail Unit Test,agents/critic.py + agents/graph.py,Critic FAIL even with genes=[],Verdict: FAIL; offending claim pruned rather than tag-stripped,YES,1

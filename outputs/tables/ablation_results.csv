@@ -1,0 +1,6 @@
+Configuration,DE Precision,Cited Genes,Statistical Accuracy,Direction Errors,Evidence Support Rate,Critic Verdict,Iterations,Latency (s),Tokens,Provenance,Trace File
+Full 5-Agent System,1.0,10,0.8,3,0.6667,PASS,1,25.44,2735,measured_llm,ablation_full_5no_agent_system_GSE202768_20260907T073735Z.json
+w/o Critic (No Verification),1.0,7,0.4286,4,0.7,N/A (Ablated),0,17.23,2620,measured_llm,ablation_w_o_critic_no_critic_GSE202768_20260907T073752Z.json
+w/o Evidence Retrieval,1.0,13,0.8,3,0.0,FAIL,0,18.7,2702,measured_llm,ablation_w_o_evidence_retrieval_no_evidence_GSE202768_20260907T073811Z.json
+w/o Structured Planner,1.0,14,1.0,0,0.68,FAIL,0,15.75,2015,measured_llm,ablation_w_o_structured_planner_no_planner_GSE202768_20260907T073826Z.json
+w/o Biological Interpreter,0.0,5,1.0,0,0.0,PASS,0,2.09,0,measured_fallback,ablation_w_o_biological_interpreter_no_biology_GSE202768_20260907T100725Z.json

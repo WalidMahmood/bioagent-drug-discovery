@@ -1,0 +1,6 @@
+Dataset,Model,Architecture,DE Precision,DE Recall,DE F1,Statistical Accuracy,Evidence Support Rate,Hallucination Rate,Provenance
+GSE202768,Gemma 3 4B IT (Q8_K_XL),BioAgent-Lite (With System),1.0,0.44,0.6111,0.7857,0.5789,0.0,measured_llm (eval_GSE202768_20260907T061142Z.json)
+GSE113650,Gemma 3 4B IT (Q8_K_XL),BioAgent-Lite (With System),1.0,0.12,0.2143,1.0,0.7778,0.0,measured_llm (eval_GSE113650_20260907T061208Z.json)
+GSE95304,Gemma 3 4B IT (Q8_K_XL),BioAgent-Lite (With System),1.0,0.28,0.4375,0.7,0.7,0.0,measured_llm (eval_GSE95304_20260907T061231Z.json)
+GSE336903,Gemma 3 4B IT (Q8_K_XL),BioAgent-Lite (With System),1.0,0.12,0.2143,1.0,0.7778,0.0,measured_llm (eval_GSE336903_20260907T061251Z.json)
+GSE202768,Gemma 3 4B IT (Q8_K_XL),LLM-only (Without System),0.2,0.04,0.0667,0.2222,0.0,0.7778,measured_llm (baseline_llm_only_GSE202768_20260906T181002Z.json)

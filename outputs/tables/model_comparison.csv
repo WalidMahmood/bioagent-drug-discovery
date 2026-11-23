@@ -1,0 +1,4 @@
+Model,Status,Datasets Evaluated,Mean Latency (s),Statistical Accuracy,Evidence Support Rate,Hallucination Rate,Provenance
+Gemma 3 4B IT (Q8_K_XL),measured,4,13.84,0.8714,0.7086,0.0,Aggregated from 4 eval_*.json traces in outputs/traces/
+MedGemma 4B IT (Q8_K_XL),pending_local_gguf_run,0,N/A,N/A,N/A,N/A,No MedGemma traces present; run evaluation/models/compare_models.py with local GGUF server
+Qwen3 8B IT (Q4_K_M),pending_local_gguf_run,0,N/A,N/A,N/A,N/A,No Qwen3 traces present; run evaluation/models/compare_models.py with local GGUF server

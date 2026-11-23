@@ -1,0 +1,5 @@
+Dataset,Benchmark Role,Architecture / Model,True Positives (Cited Sig),False Positives (Invented/Non-Sig),Missed Top-25 Genes,DE Precision,DE Recall (vs Top-25),DE F1,Statistical Accuracy,Direction Errors,Provenance
+GSE202768,Development,BioAgent-Lite (Gemma 3 4B IT),11,0,14,1.0,0.44,0.6111,0.7857,3,measured_llm (eval_GSE202768_20260907T061142Z.json)
+GSE113650,External Validation,BioAgent-Lite (Gemma 3 4B IT),3,0,22,1.0,0.12,0.2143,1.0,0,measured_llm (eval_GSE113650_20260907T061208Z.json)
+GSE95304,Held-Out Evaluation,BioAgent-Lite (Gemma 3 4B IT),7,0,18,1.0,0.28,0.4375,0.7,3,measured_llm (eval_GSE95304_20260907T061231Z.json)
+GSE336903,Cross-Species Smoke Test,BioAgent-Lite (Gemma 3 4B IT),3,0,22,1.0,0.12,0.2143,1.0,0,measured_llm (eval_GSE336903_20260907T061251Z.json)

@@ -1,0 +1,1034 @@
+{
+  "dataset": "HER2+_Breast_Cancer",
+  "disease_context": "breast carcinoma",
+  "sources": {
+    "opentargets_queried": true,
+    "targets_mapped": 3,
+    "targets_evaluated": 3,
+    "pubmed_hits": 6,
+    "clinical_trials_hits": 5
+  },
+  "targets": [
+    {
+      "gene": "ERBB2",
+      "ensembl_id": "ENSG00000141736",
+      "approved_name": "erb-b2 receptor tyrosine kinase 2",
+      "log2FC": 3.4,
+      "padj": 1e-25,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 90.7,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30.0,
+        "disease_evidence_0_25": 19.5,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 16.2
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 3,
+      "safety_events_sample": [
+        "cardiotoxicity",
+        "heart disease",
+        "more sensitive to trastuzamab"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 48,
+      "concordant_drugs_count": 41,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0005233",
+          "name": "non-small cell lung carcinoma",
+          "score": 0.779
+        },
+        {
+          "id": "MONDO_0004992",
+          "name": "cancer",
+          "score": 0.775
+        },
+        {
+          "id": "MONDO_0001056",
+          "name": "gastric cancer",
+          "score": 0.729
+        },
+        {
+          "id": "MONDO_0004989",
+          "name": "breast carcinoma",
+          "score": 0.697
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000141736"
+    },
+    {
+      "gene": "CDK4",
+      "ensembl_id": "ENSG00000135446",
+      "approved_name": "cyclin dependent kinase 4",
+      "log2FC": 1.9,
+      "padj": 1e-09,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 77.0,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 24.1,
+        "disease_evidence_0_25": 15.9,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 12.0
+      },
+      "is_essential": true,
+      "tractable_modalities": [
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 0,
+      "safety_events_sample": [],
+      "safety_warning": "Pan-essential gene in DepMap/Open Targets: systemic inhibition carries healthy-cell toxicity risk.",
+      "total_known_drugs": 17,
+      "concordant_drugs_count": 17,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0012183",
+          "name": "melanoma, cutaneous malignant, susceptibility to, 3",
+          "score": 0.7
+        },
+        {
+          "id": "MONDO_0004989",
+          "name": "breast carcinoma",
+          "score": 0.635
+        },
+        {
+          "id": "MONDO_0007254",
+          "name": "breast cancer",
+          "score": 0.631
+        },
+        {
+          "id": "MONDO_0008433",
+          "name": "small cell lung carcinoma",
+          "score": 0.593
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000135446"
+    },
+    {
+      "gene": "ESR1",
+      "ensembl_id": "ENSG00000091831",
+      "approved_name": "estrogen receptor 1",
+      "log2FC": -1.6,
+      "padj": 1e-07,
+      "direction": "down",
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "expected_moa_class": "activating",
+      "flip_rationale": "Suppressed expression in disease/perturbation state; candidate for restoration, agonism, or synthetic-lethality follow-up.",
+      "priority_score": 75.3,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 21.6,
+        "disease_evidence_0_25": 18.7,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 10.0
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 39,
+      "safety_events_sample": [
+        "Altered, Larval development",
+        "Altered, Reproductive behaviour",
+        "Decrease, Population growth rate",
+        "Decrease, Population growth rate"
+      ],
+      "safety_warning": "39 known safety liabilities recorded in Open Targets; review organ toxicity before wet-lab translation.",
+      "total_known_drugs": 51,
+      "concordant_drugs_count": 19,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0007254",
+          "name": "breast cancer",
+          "score": 0.747
+        },
+        {
+          "id": "MONDO_0005298",
+          "name": "osteoporosis",
+          "score": 0.728
+        },
+        {
+          "id": "MONDO_0004989",
+          "name": "breast carcinoma",
+          "score": 0.723
+        },
+        {
+          "id": "MONDO_0005133",
+          "name": "endometriosis",
+          "score": 0.678
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000091831"
+    }
+  ],
+  "concordant_drugs": [
+    {
+      "drug_id": "CHEMBL1201179",
+      "drug_name": "LAPATINIB DITOSYLATE",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201179"
+    },
+    {
+      "drug_id": "CHEMBL2007641",
+      "drug_name": "PERTUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2007641"
+    },
+    {
+      "drug_id": "CHEMBL313972",
+      "drug_name": "MASOPROCOL",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "prostate cancer",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL313972"
+    },
+    {
+      "drug_id": "CHEMBL2105719",
+      "drug_name": "DACOMITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2105719"
+    },
+    {
+      "drug_id": "CHEMBL4650256",
+      "drug_name": "ZANIDATAMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "biliary tract neoplasm",
+        "neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650256"
+    },
+    {
+      "drug_id": "CHEMBL3989868",
+      "drug_name": "TUCATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "HER2 positive breast carcinoma",
+        "metastasis",
+        "breast neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3989868"
+    },
+    {
+      "drug_id": "CHEMBL554",
+      "drug_name": "LAPATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL554"
+    },
+    {
+      "drug_id": "CHEMBL1173655",
+      "drug_name": "AFATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1173655"
+    },
+    {
+      "drug_id": "CHEMBL3989921",
+      "drug_name": "NERATINIB MALEATE",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3989921"
+    },
+    {
+      "drug_id": "CHEMBL2364649",
+      "drug_name": "MARGETUXIMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "HER2 positive breast carcinoma",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2364649"
+    },
+    {
+      "drug_id": "CHEMBL1201585",
+      "drug_name": "TRASTUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "gastric adenocarcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201585"
+    },
+    {
+      "drug_id": "CHEMBL180022",
+      "drug_name": "NERATINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast neoplasm",
+        "neoplasm",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL180022"
+    },
+    {
+      "drug_id": "CHEMBL2105712",
+      "drug_name": "AFATINIB DIMALEATE",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Epidermal growth factor receptor erbB1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "non-small cell lung carcinoma",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2105712"
+    },
+    {
+      "drug_id": "CHEMBL4298025",
+      "drug_name": "ZENOCUTUZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "ErbB-2/ErbB-3 heterodimer inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "non-small cell lung carcinoma",
+        "pancreatic neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4298025"
+    },
+    {
+      "drug_id": "CHEMBL24828",
+      "drug_name": "VANDETANIB",
+      "drug_type": "Small molecule",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase SRC inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "medullary thyroid gland carcinoma",
+        "thyroid gland carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+3.40).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL24828"
+    },
+    {
+      "drug_id": "CHEMBL4650272",
+      "drug_name": "TRILACICLIB DIHYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "CDK4",
+      "target_log2FC": 1.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Cyclin-dependent kinase 4 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "small cell lung carcinoma"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650272"
+    },
+    {
+      "drug_id": "CHEMBL189963",
+      "drug_name": "PALBOCICLIB",
+      "drug_type": "Small molecule",
+      "target_gene": "CDK4",
+      "target_log2FC": 1.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "CDK6/cyclin D1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma",
+        "breast neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL189963"
+    },
+    {
+      "drug_id": "CHEMBL3301610",
+      "drug_name": "ABEMACICLIB",
+      "drug_type": "Small molecule",
+      "target_gene": "CDK4",
+      "target_log2FC": 1.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Cyclin-dependent kinase 4 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast cancer",
+        "breast neoplasm"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3301610"
+    },
+    {
+      "drug_id": "CHEMBL3545110",
+      "drug_name": "RIBOCICLIB",
+      "drug_type": "Small molecule",
+      "target_gene": "CDK4",
+      "target_log2FC": 1.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Cyclin-dependent kinase 4 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast neoplasm",
+        "breast cancer"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3545110"
+    },
+    {
+      "drug_id": "CHEMBL3894860",
+      "drug_name": "TRILACICLIB",
+      "drug_type": "Small molecule",
+      "target_gene": "CDK4",
+      "target_log2FC": 1.9,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Cyclin-dependent kinase 4 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "small cell lung carcinoma",
+        "small cell lung carcinoma",
+        "myelosuppression"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.90).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3894860"
+    }
+  ],
+  "blocked_drugs": [
+    {
+      "drug_id": "CHEMBL4297509",
+      "drug_name": "ELACESTRANT",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor alpha degrader",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast neoplasm",
+        "neoplasm"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297509"
+    },
+    {
+      "drug_id": "CHEMBL4594273",
+      "drug_name": "ELACESTRANT HYDROCHLORIDE",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor alpha degrader",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "breast neoplasm",
+        "male breast carcinoma",
+        "breast cancer"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4594273"
+    },
+    {
+      "drug_id": "CHEMBL4475463",
+      "drug_name": "AMCENESTRANT",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor alpha degrader",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer",
+        "estrogen-receptor positive breast cancer"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4475463"
+    },
+    {
+      "drug_id": "CHEMBL4650316",
+      "drug_name": "GIREDESTRANT",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor alpha degrader",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer",
+        "fallopian tube neoplasm"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650316"
+    },
+    {
+      "drug_id": "CHEMBL3581693",
+      "drug_name": "BRILANESTRANT",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor degrader",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "breast cancer"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3581693"
+    },
+    {
+      "drug_id": "CHEMBL4650365",
+      "drug_name": "CAMIZESTRANT",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "DEGRADER",
+      "mechanism": "Estrogen receptor alpha degrader",
+      "clinical_stage": "PREAPPROVAL",
+      "clinical_stage_label": "Preapproval",
+      "stage_rank": 0,
+      "indications": [
+        "breast neoplasm",
+        "breast cancer"
+      ],
+      "moa_audit_status": "DISCORDANT_BLOCKED",
+      "moa_audit_note": "Blocked by MoA Guard: inhibitory drug (DEGRADER) conflicts with an already downregulated gene (log2FC=-1.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4650365"
+    }
+  ],
+  "neutral_drugs": [
+    {
+      "drug_id": "CHEMBL1743082",
+      "drug_name": "TRASTUZUMAB EMTANSINE",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "breast carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743082"
+    },
+    {
+      "drug_id": "CHEMBL5095273",
+      "drug_name": "DISITAMAB VEDOTIN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor tyrosine-protein kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer",
+        "urothelial carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL5095273"
+    },
+    {
+      "drug_id": "CHEMBL5314782",
+      "drug_name": "TRASTUZUMAB BOTIDOTIN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor tyrosine-protein kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_3",
+      "clinical_stage_label": "Phase 3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL5314782"
+    },
+    {
+      "drug_id": "CHEMBL4298178",
+      "drug_name": "TRASTUZUMAB DUOCARMAZINE",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "neoplasm",
+        "breast cancer",
+        "endometrial carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4298178"
+    },
+    {
+      "drug_id": "CHEMBL3833344",
+      "drug_name": "GANCOTAMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_2_3",
+      "clinical_stage_label": "Phase 2/3 Clinical",
+      "stage_rank": 3,
+      "indications": [
+        "breast cancer",
+        "cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3833344"
+    },
+    {
+      "drug_id": "CHEMBL4297844",
+      "drug_name": "TRASTUZUMAB DERUXTECAN",
+      "drug_type": "Antibody drug conjugate",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 binding agent",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer",
+        "HER2 positive breast carcinoma"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297844"
+    },
+    {
+      "drug_id": "CHEMBL2108029",
+      "drug_name": "ERTUMAXOMAB",
+      "drug_type": "Antibody",
+      "target_gene": "ERBB2",
+      "target_log2FC": 3.4,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "CROSS-LINKING AGENT",
+      "mechanism": "Receptor protein-tyrosine kinase erbB-2 cross-linking agent",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "breast cancer",
+        "rectal cancer",
+        "gastric cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (CROSS-LINKING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108029"
+    },
+    {
+      "drug_id": "CHEMBL226267",
+      "drug_name": "ARZOXIFENE",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "MODULATOR",
+      "mechanism": "Estrogen receptor modulator",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "breast cancer"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (MODULATOR) requires manual pharmacology review for downregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL226267"
+    },
+    {
+      "drug_id": "CHEMBL193482",
+      "drug_name": "ESTRIOL",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "MODULATOR",
+      "mechanism": "Estrogen receptor modulator",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (MODULATOR) requires manual pharmacology review for downregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL193482"
+    },
+    {
+      "drug_id": "CHEMBL2355051",
+      "drug_name": "CLOMIPHENE",
+      "drug_type": "Small molecule",
+      "target_gene": "ESR1",
+      "target_log2FC": -1.6,
+      "recommended_flip": "Restore / Activate (Turn ON)",
+      "action_type": "MODULATOR",
+      "mechanism": "Estrogen receptor alpha modulator",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "female infertility",
+        "hypogonadism"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (MODULATOR) requires manual pharmacology review for downregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2355051"
+    }
+  ],
+  "literature": [
+    {
+      "pmid": "20641221",
+      "gene": "ERBB2",
+      "title": "Lys-cys-cys-tyr-ser-leu-(gly-ser-gly)-1,4,7,10-tetraazacyclododecane-N,N',N'',N'''-tetraacetic acid-(111)In",
+      "journal": "",
+      "pub_date": "2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20641221/"
+    },
+    {
+      "pmid": "36074499",
+      "gene": "ERBB2",
+      "title": "Abemaciclib and Fulvestrant for Bilateral Choroidal Metastasis From Breast Carcinoma",
+      "journal": "JAMA ophthalmology",
+      "pub_date": "2022 Oct 1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36074499/"
+    },
+    {
+      "pmid": "28813415",
+      "gene": "CDK4",
+      "title": "CDK4/6 inhibition triggers anti-tumour immunity",
+      "journal": "Nature",
+      "pub_date": "2017 Aug 24",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28813415/"
+    },
+    {
+      "pmid": "38562645",
+      "gene": "CDK4",
+      "title": "Neuroendocrine breast carcinoma",
+      "journal": "Autopsy & case reports",
+      "pub_date": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38562645/"
+    },
+    {
+      "pmid": "36980575",
+      "gene": "ESR1",
+      "title": "Evaluation of ERBB2 mRNA Expression in HER2-Equivocal (2+) Immunohistochemistry Cases",
+      "journal": "Cancers",
+      "pub_date": "2023 Mar 9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36980575/"
+    },
+    {
+      "pmid": "39193980",
+      "gene": "ESR1",
+      "title": "Breast cancer during pregnancy of Luminal A type overexpressed CXCL13",
+      "journal": "Pathology international",
+      "pub_date": "2024 Oct",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39193980/"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT03255070",
+      "query_gene_or_drug": "ERBB2",
+      "title": "A Dose-escalation, Expansion Study of ARX788, in Advanced Solid Tumors Subjects With HER2 Expression (ACE-Pan Tumor 01)",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "url": "https://clinicaltrials.gov/study/NCT03255070"
+    },
+    {
+      "nct_id": "NCT00053339",
+      "query_gene_or_drug": "ERBB2",
+      "title": "Trastuzumab With or Without Tamoxifen in Treating Women With Progressive Stage IV Breast Cancer",
+      "status": "WITHDRAWN",
+      "phase": "PHASE3",
+      "url": "https://clinicaltrials.gov/study/NCT00053339"
+    },
+    {
+      "nct_id": "NCT06253195",
+      "query_gene_or_drug": "CDK4",
+      "title": "BGB-43395 Alone or as Part of Combination Therapies in Chinese Participants With HR+/HER2- Breast Cancer and Other Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "url": "https://clinicaltrials.gov/study/NCT06253195"
+    },
+    {
+      "nct_id": "NCT06851442",
+      "query_gene_or_drug": "CDK4",
+      "title": "Clinical Trial of Evaluating TQB3912 Tablets Combined With Fulvestrant Injection\u00b1TQB3616 Capsules for Locally Advanced or Metastatic Hormone Receptor(HR)-Positive and Human Epidermal Growth Factor Receptor 2 (HER2)-Negative Breast Cancer",
+      "status": "TERMINATED",
+      "phase": "PHASE1, PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT06851442"
+    },
+    {
+      "nct_id": "NCT03106077",
+      "query_gene_or_drug": "ESR1",
+      "title": "Mirvetuximab Soravtansine as First Line in Treating Patients With Triple Negative Breast Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT03106077"
+    }
+  ],
+  "wetlab_plan": {
+    "dataset": "HER2+_Breast_Cancer",
+    "disease_context": "breast carcinoma",
+    "recommended_qpcr_panel": [
+      "ERBB2",
+      "CDK4",
+      "ESR1"
+    ],
+    "priority_targets": [
+      "ERBB2",
+      "CDK4",
+      "ESR1"
+    ],
+    "actionable_steps": [
+      "Drug Repurposing Viability Screen: Test LAPATINIB DITOSYLATE (INHIBITOR, FDA / Regulatory Approved) targeting ERBB2 in a 6-point dose-response assay (72h CellTiter-Glo / viability readout) in a breast carcinoma cell model.",
+      "Genetic Flip Confirmation (Loss-of-Function): Perform siRNA or CRISPRi knockdown of ERBB2 (observed log2FC=+3.40) to confirm whether suppressing this candidate reverses disease phenotype or restores drug sensitivity.",
+      "Rescue / Biomarker Tracking: Monitor restoration of suppressed marker ESR1 (log2FC=-1.60) after perturbation or compound treatment.",
+      "Orthogonal 5-Gene RT-qPCR Validation Panel: Quantify ERBB2, CDK4, ESR1 alongside housekeeping controls across >=3 biological replicates."
+    ],
+    "caution": "All wet-lab validation suggestions are hypothesis-generating research plans derived from transcriptomic and Open Targets / PubMed / ClinicalTrials.gov evidence\u2014not clinical treatment protocols."
+  },
+  "moa_audit_summary": {
+    "concordant_count": 77,
+    "discordant_blocked_count": 6,
+    "neutral_review_count": 29,
+    "guard_status": "ACTIVE \u2014 Mechanistically discordant drugs automatically blocked"
+  },
+  "latency_s": 6.8,
+  "cached": false
+}

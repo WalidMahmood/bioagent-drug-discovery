@@ -1,0 +1,4 @@
+Model,Quantization,Status,Measured Mean Latency (s),Measured Stat Accuracy,Measured Evidence Support,Notes
+Gemma 3 4B IT,Q8_K_XL,measured,13.84,0.8714,0.7086,Primary evaluated model across all 4 GEO datasets
+MedGemma 4B IT,Q8_K_XL,pending_local_gguf_run,N/A,N/A,N/A,Pending local GGUF benchmark run
+Qwen3 8B IT,Q4_K_M,pending_local_gguf_run,N/A,N/A,N/A,Pending local GGUF benchmark run

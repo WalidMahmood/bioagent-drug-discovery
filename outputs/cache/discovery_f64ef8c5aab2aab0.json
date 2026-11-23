@@ -1,0 +1,753 @@
+{
+  "dataset": "Autoimmune_/_Rheumatoid_Inflammation_(General_Disease)",
+  "disease_context": "rheumatoid arthritis",
+  "sources": {
+    "opentargets_queried": true,
+    "targets_mapped": 3,
+    "targets_evaluated": 3,
+    "pubmed_hits": 6,
+    "clinical_trials_hits": 5
+  },
+  "targets": [
+    {
+      "gene": "JAK1",
+      "ensembl_id": "ENSG00000162434",
+      "approved_name": "Janus kinase 1",
+      "log2FC": 1.7,
+      "padj": 1e-08,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 85.2,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 22.4,
+        "disease_evidence_0_25": 17.8,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 20.0
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 0,
+      "safety_events_sample": [],
+      "safety_warning": null,
+      "total_known_drugs": 25,
+      "concordant_drugs_count": 25,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0008383",
+          "name": "rheumatoid arthritis",
+          "score": 0.714
+        },
+        {
+          "id": "MONDO_0033558",
+          "name": "autoinflammation, immune dysregulation, and eosinophilia",
+          "score": 0.693
+        },
+        {
+          "id": "MONDO_0004980",
+          "name": "atopic eczema",
+          "score": 0.662
+        },
+        {
+          "id": "MONDO_0044903",
+          "name": "myelofibrosis",
+          "score": 0.591
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000162434"
+    },
+    {
+      "gene": "TNF",
+      "ensembl_id": "ENSG00000232810",
+      "approved_name": "tumor necrosis factor",
+      "log2FC": 2.6,
+      "padj": 1e-15,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 82.7,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 30.0,
+        "disease_evidence_0_25": 17.7,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 10.0
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "OC",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 8,
+      "safety_events_sample": [
+        "regulation of gene expression",
+        "Toxic liver disease",
+        "chance of severe hypersensitivity",
+        "chance of severe hypersensitivity to carbamazepine treatment"
+      ],
+      "safety_warning": "8 known safety liabilities recorded in Open Targets; review organ toxicity before wet-lab translation.",
+      "total_known_drugs": 14,
+      "concordant_drugs_count": 11,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0011849",
+          "name": "psoriatic arthritis",
+          "score": 0.709
+        },
+        {
+          "id": "MONDO_0005083",
+          "name": "psoriasis",
+          "score": 0.637
+        },
+        {
+          "id": "MONDO_0008383",
+          "name": "rheumatoid arthritis",
+          "score": 0.637
+        },
+        {
+          "id": "MONDO_0005101",
+          "name": "ulcerative colitis",
+          "score": 0.634
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000232810"
+    },
+    {
+      "gene": "IL6",
+      "ensembl_id": "ENSG00000136244",
+      "approved_name": "interleukin 6",
+      "log2FC": 2.2,
+      "padj": 1e-11,
+      "direction": "up",
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "expected_moa_class": "inhibitory",
+      "flip_rationale": "Elevated expression in disease/perturbation state; candidate for inhibition, knockdown, or pathway blockade.",
+      "priority_score": 80.8,
+      "evidence_tier": "Tier 1: Approved Drug Repurposing",
+      "score_breakdown": {
+        "transcriptomic_0_30": 26.7,
+        "disease_evidence_0_25": 12.9,
+        "druggability_0_25": 25.0,
+        "safety_selectivity_0_20": 16.2
+      },
+      "is_essential": false,
+      "tractable_modalities": [
+        "AB",
+        "PR",
+        "SM"
+      ],
+      "safety_liabilities_count": 3,
+      "safety_events_sample": [
+        "regulation of gene expression",
+        "regulation of transcription factor activity",
+        "depression"
+      ],
+      "safety_warning": null,
+      "total_known_drugs": 6,
+      "concordant_drugs_count": 5,
+      "associated_diseases": [
+        {
+          "id": "MONDO_0004979",
+          "name": "asthma",
+          "score": 0.585
+        },
+        {
+          "id": "EFO_0000266",
+          "name": "aortic stenosis",
+          "score": 0.561
+        },
+        {
+          "id": "MONDO_0008383",
+          "name": "rheumatoid arthritis",
+          "score": 0.515
+        },
+        {
+          "id": "MONDO_0005046",
+          "name": "immune system disorder",
+          "score": 0.507
+        }
+      ],
+      "opentargets_url": "https://platform.opentargets.org/target/ENSG00000136244"
+    }
+  ],
+  "concordant_drugs": [
+    {
+      "drug_id": "CHEMBL1201581",
+      "drug_name": "INFLIXIMAB",
+      "drug_type": "Antibody",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "TNF-alpha inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "psoriatic arthritis",
+        "psoriasis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201581"
+    },
+    {
+      "drug_id": "CHEMBL2108887",
+      "drug_name": "AFELIMOMAB",
+      "drug_type": "Antibody",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "TNF-alpha inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "immune system disorder",
+        "Sepsis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2108887"
+    },
+    {
+      "drug_id": "CHEMBL1743054",
+      "drug_name": "OZORALIZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "TNF-alpha inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743054"
+    },
+    {
+      "drug_id": "CHEMBL1201831",
+      "drug_name": "CERTOLIZUMAB PEGOL",
+      "drug_type": "Antibody",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "TNF-alpha inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "Crohn disease",
+        "inflammation"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201831"
+    },
+    {
+      "drug_id": "CHEMBL1201833",
+      "drug_name": "GOLIMUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "TNF-alpha inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "ankylosing spondylitis",
+        "rheumatoid arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.60).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1201833"
+    },
+    {
+      "drug_id": "CHEMBL1743050",
+      "drug_name": "OLOKIZUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "IL6",
+      "target_log2FC": 2.2,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Interleukin-6 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "immune system disorder",
+        "rheumatoid arthritis",
+        "Orthocoronavirinae infectious disease"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.20).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743050"
+    },
+    {
+      "drug_id": "CHEMBL1743071",
+      "drug_name": "SIRUKUMAB",
+      "drug_type": "Antibody",
+      "target_gene": "IL6",
+      "target_log2FC": 2.2,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Interleukin-6 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "immune system disorder",
+        "cutaneous lupus erythematosus",
+        "temporal arteritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+2.20).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743071"
+    },
+    {
+      "drug_id": "CHEMBL1795071",
+      "drug_name": "RUXOLITINIB PHOSPHATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "graft versus host disease",
+        "myelofibrosis",
+        "primary myelofibrosis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1795071"
+    },
+    {
+      "drug_id": "CHEMBL6068336",
+      "drug_name": "MOMELOTINIB DIHYDROCHLORIDE MONOHYDRATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "myelofibrosis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL6068336"
+    },
+    {
+      "drug_id": "CHEMBL4594382",
+      "drug_name": "DEURUXOLITINIB PHOSPHATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "alopecia areata"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4594382"
+    },
+    {
+      "drug_id": "CHEMBL2103743",
+      "drug_name": "TOFACITINIB CITRATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Janus Kinase (JAK) inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "psoriatic arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2103743"
+    },
+    {
+      "drug_id": "CHEMBL4298167",
+      "drug_name": "FILGOTINIB MALEATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "inflammation"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4298167"
+    },
+    {
+      "drug_id": "CHEMBL3622821",
+      "drug_name": "UPADACITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase TYK2 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "atopic eczema",
+        "psoriatic arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3622821"
+    },
+    {
+      "drug_id": "CHEMBL5315119",
+      "drug_name": "UPADACITINIB HEMIHYDRATE",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase TYK2 inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "ulcerative colitis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL5315119"
+    },
+    {
+      "drug_id": "CHEMBL3655081",
+      "drug_name": "ABROCITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "atopic eczema",
+        "atopic eczema"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3655081"
+    },
+    {
+      "drug_id": "CHEMBL2105759",
+      "drug_name": "BARICITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "juvenile idiopathic arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL2105759"
+    },
+    {
+      "drug_id": "CHEMBL4297507",
+      "drug_name": "DELGOCITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Janus Kinase (JAK) inhibitor",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "atopic eczema",
+        "atopic eczema",
+        "dermatitis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297507"
+    },
+    {
+      "drug_id": "CHEMBL1078178",
+      "drug_name": "MOMELOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "myelofibrosis",
+        "Splenomegaly",
+        "myeloproliferative disorder"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1078178"
+    },
+    {
+      "drug_id": "CHEMBL3301607",
+      "drug_name": "FILGOTINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Tyrosine-protein kinase JAK1 inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "rheumatoid arthritis",
+        "ulcerative colitis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL3301607"
+    },
+    {
+      "drug_id": "CHEMBL221959",
+      "drug_name": "TOFACITINIB",
+      "drug_type": "Small molecule",
+      "target_gene": "JAK1",
+      "target_log2FC": 1.7,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "INHIBITOR",
+      "mechanism": "Janus Kinase (JAK) inhibitor",
+      "clinical_stage": "PHASE_4",
+      "clinical_stage_label": "Approved (Phase 4)",
+      "stage_rank": 4,
+      "indications": [
+        "rheumatoid arthritis",
+        "rheumatoid arthritis"
+      ],
+      "moa_audit_status": "CONCORDANT",
+      "moa_audit_note": "Inhibitory MoA (INHIBITOR) matches upregulated target (log2FC=+1.70).",
+      "url": "https://platform.opentargets.org/drug/CHEMBL221959"
+    }
+  ],
+  "blocked_drugs": [],
+  "neutral_drugs": [
+    {
+      "drug_id": "CHEMBL4297572",
+      "drug_name": "ABBV-3373",
+      "drug_type": "Unknown",
+      "target_gene": "TNF",
+      "target_log2FC": 2.6,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "BINDING AGENT",
+      "mechanism": "TNF-alpha binding agent",
+      "clinical_stage": "PHASE_2",
+      "clinical_stage_label": "Phase 2 Clinical",
+      "stage_rank": 2,
+      "indications": [
+        "rheumatoid arthritis"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (BINDING AGENT) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL4297572"
+    },
+    {
+      "drug_id": "CHEMBL1743070",
+      "drug_name": "SILTUXIMAB",
+      "drug_type": "Antibody",
+      "target_gene": "IL6",
+      "target_log2FC": 2.2,
+      "recommended_flip": "Suppress / Inhibit (Turn OFF)",
+      "action_type": "ANTAGONIST",
+      "mechanism": "Interleukin-6 antagonist",
+      "clinical_stage": "APPROVAL",
+      "clinical_stage_label": "FDA / Regulatory Approved",
+      "stage_rank": 4,
+      "indications": [
+        "Giant Lymph Node Hyperplasia",
+        "idiopathic multicentric Castleman disease",
+        "anemia"
+      ],
+      "moa_audit_status": "NEUTRAL_REVIEW",
+      "moa_audit_note": "Mechanism (ANTAGONIST) requires manual pharmacology review for upregulated target.",
+      "url": "https://platform.opentargets.org/drug/CHEMBL1743070"
+    }
+  ],
+  "literature": [
+    {
+      "pmid": "34283454",
+      "gene": "JAK1",
+      "title": "Upadacitinib",
+      "journal": "",
+      "pub_date": "2024 Jan",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34283454/"
+    },
+    {
+      "pmid": "32260219",
+      "gene": "JAK1",
+      "title": "Update on the Pathomechanism, Diagnosis, and Treatment Options for Rheumatoid Arthritis",
+      "journal": "Cells",
+      "pub_date": "2020 Apr 3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32260219/"
+    },
+    {
+      "pmid": "27382171",
+      "gene": "TNF",
+      "title": "Vagus nerve stimulation inhibits cytokine production and attenuates disease severity in rheumatoid arthritis",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "pub_date": "2016 Jul 19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27382171/"
+    },
+    {
+      "pmid": "31632872",
+      "gene": "TNF",
+      "title": "Etanercept-associated Nephropathy",
+      "journal": "Cureus",
+      "pub_date": "2019 Aug 18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31632872/"
+    },
+    {
+      "pmid": "37567824",
+      "gene": "IL6",
+      "title": "Rheumatoid arthritis",
+      "journal": "Medicina clinica",
+      "pub_date": "2023 Dec 22",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37567824/"
+    },
+    {
+      "pmid": "32718086",
+      "gene": "IL6",
+      "title": "Interleukin-6 in Rheumatoid Arthritis",
+      "journal": "International journal of molecular sciences",
+      "pub_date": "2020 Jul 23",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32718086/"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT04774224",
+      "query_gene_or_drug": "JAK1",
+      "title": "Baricitinib in New-onset Type 1 Diabetes",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT04774224"
+    },
+    {
+      "nct_id": "NCT00976599",
+      "query_gene_or_drug": "JAK1",
+      "title": "A Study To Evaluate The Mechanism Of Action Of CP-690,550 In Patients With Rheumatoid Arthritis",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT00976599"
+    },
+    {
+      "nct_id": "NCT00422942",
+      "query_gene_or_drug": "TNF",
+      "title": "A Pharmacokinetic and Pharmacodynamic Study of MabThera (Rituximab) Plus Methotrexate in Patients With Rheumatoid Arthritis (RA)",
+      "status": "TERMINATED",
+      "phase": "PHASE2",
+      "url": "https://clinicaltrials.gov/study/NCT00422942"
+    },
+    {
+      "nct_id": "NCT01083563",
+      "query_gene_or_drug": "TNF",
+      "title": "Draining PLN and Synovial Inflammation in RA Knee Joints Pre and Post Anti-TNF or B Cell Depletion Therapy",
+      "status": "TERMINATED",
+      "phase": "N/A",
+      "url": "https://clinicaltrials.gov/study/NCT01083563"
+    },
+    {
+      "nct_id": "NCT06480643",
+      "query_gene_or_drug": "IL6",
+      "title": "Effect of Exercise Type on Muscle Quality in Patients With OA, SARC and RA: an Explorative Study",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "NA",
+      "url": "https://clinicaltrials.gov/study/NCT06480643"
+    }
+  ],
+  "wetlab_plan": {
+    "dataset": "Autoimmune_/_Rheumatoid_Inflammation_(General_Disease)",
+    "disease_context": "rheumatoid arthritis",
+    "recommended_qpcr_panel": [
+      "JAK1",
+      "TNF",
+      "IL6"
+    ],
+    "priority_targets": [
+      "JAK1",
+      "TNF",
+      "IL6"
+    ],
+    "actionable_steps": [
+      "Drug Repurposing Viability Screen: Test INFLIXIMAB (INHIBITOR, Approved (Phase 4)) targeting TNF in a 6-point dose-response assay (72h CellTiter-Glo / viability readout) in a rheumatoid arthritis cell model.",
+      "Genetic Flip Confirmation (Loss-of-Function): Perform siRNA or CRISPRi knockdown of JAK1 (observed log2FC=+1.70) to confirm whether suppressing this candidate reverses disease phenotype or restores drug sensitivity.",
+      "Orthogonal 5-Gene RT-qPCR Validation Panel: Quantify JAK1, TNF, IL6 alongside housekeeping controls across >=3 biological replicates."
+    ],
+    "caution": "All wet-lab validation suggestions are hypothesis-generating research plans derived from transcriptomic and Open Targets / PubMed / ClinicalTrials.gov evidence\u2014not clinical treatment protocols."
+  },
+  "moa_audit_summary": {
+    "concordant_count": 41,
+    "discordant_blocked_count": 0,
+    "neutral_review_count": 2,
+    "guard_status": "ACTIVE \u2014 Mechanistically discordant drugs automatically blocked"
+  },
+  "latency_s": 6.66,
+  "cached": false
+}

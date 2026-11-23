@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-border; }
+  html { @apply scroll-smooth; }
+  body {
+    @apply font-sans antialiased overflow-x-hidden;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background: #07090E;
+    color: #F1F5F9;
+  }
+  ::selection { background: rgba(16, 185, 129, 0.24); }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .mono-tabular {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #07090E; }
+::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #334155; }

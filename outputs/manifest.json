@@ -1,0 +1,111 @@
+{
+  "experiment": "BioAgent-Lite Thesis Release (Measured-Only Audit)",
+  "project_title": "BioAgent-Lite: A Resource-Efficient Multi-Agent Framework for Reliable Gene-Expression Analysis",
+  "course": "CSE 763 Advanced Bioinformatics / CSE 443 Bioinformatics",
+  "date_utc": "2026-09-07",
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 5050 (8 GB VRAM)",
+    "system_ram": "16 GB",
+    "cuda": "12.4",
+    "runtime": "llama.cpp CUDA server (zero cloud API dependencies)"
+  },
+  "primary_model": {
+    "name": "Google Gemma 3 4B IT",
+    "quantization": "Q8_K_XL (4.81 GB)",
+    "context_window": 8192,
+    "inference_speed_tps": 38.5,
+    "peak_vram_mb": 4919
+  },
+  "datasets": [
+    {
+      "accession": "GSE202768",
+      "role": "Development",
+      "organism": "Homo sapiens",
+      "data_type": "Raw Counts (pydeseq2)",
+      "genes_tested": 14009,
+      "sig_genes": 3946
+    },
+    {
+      "accession": "GSE113650",
+      "role": "External Validation",
+      "organism": "Homo sapiens",
+      "data_type": "CuffDiff (q-values)",
+      "genes_tested": 14817,
+      "sig_genes": 990
+    },
+    {
+      "accession": "GSE95304",
+      "role": "Held-Out Evaluation",
+      "organism": "Homo sapiens",
+      "data_type": "FPKM (Descriptive)",
+      "genes_tested": 14387,
+      "sig_genes": 2063
+    },
+    {
+      "accession": "GSE336903",
+      "role": "Cross-Species Smoke Test",
+      "organism": "Mus musculus",
+      "data_type": "FPKM (Descriptive)",
+      "genes_tested": 54289,
+      "sig_genes": 3014
+    }
+  ],
+  "tables": [
+    "outputs/tables/dataset_summary.csv",
+    "outputs/tables/model_comparison.csv",
+    "outputs/tables/architecture_comparison.csv",
+    "outputs/tables/ablation_results.csv",
+    "outputs/tables/resource_usage.csv",
+    "outputs/tables/dataset_generalization.csv",
+    "outputs/tables/robustness_results.csv",
+    "outputs/tables/all_models_4datasets_comparison.csv",
+    "outputs/tables/model_systems_tradeoffs.csv",
+    "outputs/tables/all_datasets_confusion_matrix_metrics.csv",
+    "outputs/tables/step_by_step_execution_traces.json"
+  ],
+  "figures": [
+    "outputs/figures/volcano_plot_GSE202768.png",
+    "outputs/figures/pathways_GSE202768.png",
+    "outputs/figures/volcano_plot_GSE113650.png",
+    "outputs/figures/pathways_GSE113650.png",
+    "outputs/figures/volcano_plot_GSE95304.png",
+    "outputs/figures/pathways_GSE95304.png",
+    "outputs/figures/volcano_plot_GSE336903.png",
+    "outputs/figures/pathways_GSE336903.png",
+    "outputs/figures/architecture_comparison.png",
+    "outputs/figures/ablation_impact_breakdown.png",
+    "outputs/figures/system_block_diagram.png"
+  ],
+  "notebooks": [
+    "notebooks/BioAgent_Lite_Complete_Demonstration.ipynb",
+    "notebooks/BioAgent_Lite_Complete_Demonstration_Executed.ipynb"
+  ],
+  "backend": {
+    "framework": "FastAPI",
+    "entrypoint": "backend/main.py",
+    "port": 8000
+  },
+  "reports": [
+    "outputs/reports/final_report.md",
+    "docs/methodology.md",
+    "docs/reproducibility.md",
+    "README.md"
+  ],
+  "key_metrics": {
+    "evaluated_model": "Gemma 3 4B IT (Q8_K_XL)",
+    "datasets_evaluated": 4,
+    "gse202768_cited_gene_precision": 1.0,
+    "gse202768_cited_gene_recall_top25": 0.44,
+    "gse202768_cited_gene_f1": 0.6111,
+    "gse202768_statistical_accuracy": 0.7857,
+    "gse202768_direction_errors_in_preserved_trace": 3,
+    "gse202768_evidence_support_rate_normalized": 0.5789,
+    "gse202768_hallucination_rate": 0.0,
+    "mean_statistical_accuracy_4datasets": 0.8714,
+    "mean_evidence_support_rate_4datasets": 0.7086,
+    "mean_hallucination_rate_4datasets": 0.0,
+    "mean_latency_s_4datasets": 13.84,
+    "robustness_guardrail_unit_tests_passed": "6/6 (R1-R6)",
+    "provenance_note": "Strictly computed from preserved outputs/traces/*.json with non-tautological cited-gene scoring and normalized pathway matching. Synthetic ROC/PR curves and unrun MedGemma/Qwen3 numbers removed."
+  }
+}
